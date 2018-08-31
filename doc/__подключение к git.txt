@@ -1,0 +1,46 @@
+
+Developer@HP-Bracyuk MINGW64 /c/projects/__edu/env
+$ git remote add origin https://github.com/AleksandrBracyuk/env.git
+fatal: not a git repository (or any of the parent directories): .git
+
+Developer@HP-Bracyuk MINGW64 /c/projects/__edu/env
+$ echo "# env" >> README.md
+
+Developer@HP-Bracyuk MINGW64 /c/projects/__edu/env
+$ git init
+Initialized empty Git repository in C:/projects/__edu/env/.git/
+
+Developer@HP-Bracyuk MINGW64 /c/projects/__edu/env (master)
+$ git add README.md
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory.
+
+Developer@HP-Bracyuk MINGW64 /c/projects/__edu/env (master)
+$ git commit -m "first commit"
+[master (root-commit) 794e611] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+Developer@HP-Bracyuk MINGW64 /c/projects/__edu/env (master)
+$ git commit *
+error: pathspec 'node_modules' did not match any file(s) known to git.
+error: pathspec 'package.json' did not match any file(s) known to git.
+error: pathspec 'package-lock.json' did not match any file(s) known to git.
+error: pathspec 'src' did not match any file(s) known to git.
+error: pathspec 'webpack.config.js' did not match any file(s) known to git.
+
+Developer@HP-Bracyuk MINGW64 /c/projects/__edu/env (master)
+$ git remote add origin https://github.com/AleksandrBracyuk/env.git
+
+Developer@HP-Bracyuk MINGW64 /c/projects/__edu/env (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 219 bytes | 219.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/AleksandrBracyuk/env.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Developer@HP-Bracyuk MINGW64 /c/projects/__edu/env (master)
+$
