@@ -1,3 +1,33 @@
-body{
-    color:blue
+.header{
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 31px;
+}
+
+.menu{
+    margin:0px;
+    background: #f0f2f5;
+    border: 2px;
+    min-height: 100px;
+        float: left;
+        height: 450px;
+}
+ul.menu{
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
+.menu-item{
+    margin:20px;
+    padding: 10px;
+    list-style-type: none;
+}
+.menu-item:hover{
+    background:#ddd;
+}
+
+.page{
+    background: red;
+    border: 2px rgb(218, 176, 176);
+        height: 450px;
+
 }
